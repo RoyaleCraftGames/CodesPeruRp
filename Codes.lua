@@ -1,4 +1,3 @@
-local RunService = game:GetService("RunService")
 local Codes = {}
 --[[Ejemplo
 	["Codigo"] = Cantidad de Soles
@@ -9,7 +8,7 @@ Codes = {
 	["franko_dev"] = 100
 }
 function Codes.IsServer()
-	if (RunService:IsServer()) then
+	if (game:GetService("RunService"):IsServer()) then
 		return true
 	else
 		return false
@@ -22,9 +21,6 @@ function Codes.ValidateCode(Code: string)
 	else 
 		return false
 	end
-end
-function Codes.Printsmht()
-	print("aasdadadawd")
 end
 
 return Codes
