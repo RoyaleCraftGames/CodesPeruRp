@@ -4,7 +4,7 @@ local Codes = {}
 ]]
 
 Codes = {
-	["royalecraft"] = 100,
+	["royalecraft"] = 1000 ,
 	["franko_dev"] = 100
 }
 function Codes.IsServer()
