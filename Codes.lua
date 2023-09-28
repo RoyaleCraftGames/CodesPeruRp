@@ -23,5 +23,8 @@ function Codes.ValidateCode(Code: string)
 		return false
 	end
 end
+function Codes.Printsmht()
+	print("aasdadadawd")
+end
 
 return Codes
