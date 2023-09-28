@@ -17,7 +17,7 @@ function Codes.IsServer()
 end
 function Codes.ValidateCode(Code: string)
 	if Codes.IsServer() == false then return end
-	if Codes[Code] ~= Code then 
+	if Codes[Code] ~= nil then 
 		return true 
 	else 
 		return false
